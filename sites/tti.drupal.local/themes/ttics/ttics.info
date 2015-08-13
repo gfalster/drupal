@@ -1,0 +1,21 @@
+name = ttics
+description = old site
+version = 1.1
+package = core
+core = 7.x
+engine = phptemplate
+
+stylesheet[all][] = css/layout.css
+stylesheet[all][] = css/style.css
+
+region[header] = Header
+region[banner_top] = Banner Top
+region[featured] = Featured
+region[highlighted] = Highlighted
+region[content] = Content
+region[sidebar_first] = Sidebar First
+region[sidebar_second] = Sidebar Second
+region[footer] = Footer
+
+
+ 

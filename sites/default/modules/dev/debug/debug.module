@@ -1,0 +1,22 @@
+<?php
+/*
+ * Implements hook_block_info().
+ */
+function debug_block_info()
+{
+	$blocks = array();
+	$blocks['debugger'] = array(
+		'info' => t('Debugger Block'),
+		'cache' => DRUPAL_NO_CACHE,	
+	);
+	return $blocks;
+}
+function debug_form_alter(&$form, &$form_state, $form_id)
+{
+	
+}
+
+function debug_preprocess_page(&$vars)
+{
+	
+}

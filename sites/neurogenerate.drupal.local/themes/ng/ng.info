@@ -1,0 +1,21 @@
+name = ng
+description = ng theme
+package = core
+version = 7.x
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/style.css
+
+
+regions[header] = Header
+regions[banner_top] = Banner
+regions[featured] = Featured
+regions[highlighted] = Highlighted
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[banner_bottom] = Banner bottom
+regions[signup] = Signup
+regions[footer] = Footer

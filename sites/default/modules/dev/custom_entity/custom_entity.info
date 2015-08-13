@@ -1,0 +1,4 @@
+name = Custom Entity
+description = Custom Entity Example
+core = 7.x
+dependencies[] = entity

@@ -1,0 +1,3 @@
+name = Listing Block
+description = Allows us to create a block of links to other sites
+core = 7.x

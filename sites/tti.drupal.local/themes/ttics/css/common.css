@@ -1,0 +1,56 @@
+
+.colcont_top { width: inherit; height:10px }
+.colboxleft_top { background-image: url(../../images/newtti_01.png); background-repeat: repeat; width:11px; height:10px; float:left   }
+.colboxright_top { background-image: url(../../images/newtti_03.png); background-repeat: repeat; width:11px; height:10px; float:right   }
+.colboxmiddle_top { background-image: url(../../images/newtti_02.png); background-repeat: repeat; width:auto; height:10px; margin-left:11px; margin-right:11px   }
+.colcont_mid { width: inherit; height:970px }
+.colboxleft_mid { background-image: url(../../images/newtti_04.png); background-repeat: repeat; width:11px; height:970px; float:left   }
+.colboxright_mid { background-image: url(../../images/newtti_06.png); background-repeat: repeat; width:11px; height:970px; float:right   }
+.colboxmiddle_mid { width:auto; height:970px; margin-left:11px; margin-right:11px }
+.colcont_bottom { width: 100%; height:10px }
+.colboxleft_bottom { background-image: url(../../images/newtti_21.png); background-repeat: repeat; width:11px; height:10px; float:left   }
+.colboxright_bottom { background-image: url(../../images/newtti_23.png); background-repeat: repeat; width:11px; height:10px; float:right   }
+.colboxmiddle_bottom { background-image: url(../../images/newtti_22.png); background-repeat: repeat; width:auto; height:10px; margin-left:11px; margin-right:11px   }
+.padbcont_quote { background-image: url(../../images/newtti_05.png); background-repeat: repeat-x; width:100%; height:15px   }
+.padbox_quote { color: white; font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; width:auto; height:auto; padding:0    }
+.navboxcont_header { width: 100%; height:80px}
+.navboxleft_header { background-image: url(../../images/newtti_07.jpg); width:254px; float:left; height:80px }
+.navboxauto_header { font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: right; vertical-align: middle; margin-left:254px; width:auto; height:80px    ; }
+.navboxcont_searchbar { width: 100%; height:20px; padding-top: 10px; }
+.navboxleft_searchbar { width:100px; float:left; height:20px}
+.navboxauto_searchbar { margin-left:100px; width:auto; height:20px; }
+.padbcont_divider {width:100%; height:20px }
+.padbox_divider { background-image: url(../../images/newtti_09.png); background-repeat: repeat-x; width:auto; height:auto; padding:1px  }
+.padbcont_menu { background-color: silver; width:100%; height:20px  }
+.padbox_menu {width:auto; height:auto; padding:2px}
+.padbcont_flash {width:100%; height:150px }
+.padbox_flash {width:auto; height:auto; padding:0;  background-color:#000000}
+.navboxcont_maincontent { width: 100%; height:650px}
+.navboxleft_maincontent { background-image: url(../../images/newtti_18.jpg); background-repeat: repeat-y; width:254px; float:left; height:650px  }
+.navboxauto_maincontent { font-family: Verdana, Arial, Helvetica, sans-serif; margin-left:254px; width:auto; height:650px }
+.padbcont_footer { background-image: url(../../images/newtti_20.png); background-repeat: repeat-x; width:100%; height:15px   }
+.padbox_footer {width:auto; height:auto; padding:0}
+.threecolcont_33C73F { color: black; font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; text-align: center; width:100%; height:20px        }
+.threecolbox_33C73F {width:14.3%; height:20px; float:left; background-color:silver }
+.navrboxcont_newsandcolab { width: 100%; height: 650px !important; }
+.navrboxright_newsandcolab { width:150px; height: 650px !important; float:right; margin-right: 5px; margin-left: 5px; border-left: 2px solid gray; }
+.navrboxauto_newsandcolab { margin-right:150px; width:auto; height: 650px !important; margin-left: 5px; }
+.titles { font-size: 14px; font-weight: bold; }
+.storys { font-size: 12px; }
+--></style>
+		<csscriptdict import="import">
+			<script type="text/javascript" src="file:///C:/Documents%20and%20Settings/administrator.TTICS/Application%20Data/Adobe/Adobe%20GoLive/Settings8/JScripts/GlobalScripts/CSScriptLib.js"></script>
+		</csscriptdict>
+		<csactiondict>
+			<script type="text/javascript"><!--
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		pre_ecomh = newImage('images/ecomh.png');
+		pre_comh = newImage('images/comh.png');
+		pre_simh = newImage('images/simh.png');
+		pre_vizh = newImage('images/vizh.png');
+		pre_eduh = newImage('images/eduh.png');
+		preloadFlag = true;
+	}
+}

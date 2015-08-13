@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Default Connection</comment>
+<entry key="uuid">4354b0b2-d357-49d3-9b1e-90059e621b23</entry>
+<entry key="useCustomConnectionString">false</entry>
+<entry key="port">3306</entry>
+<entry key="color">123 123 123</entry>
+<entry key="autoCommit">true</entry>
+<entry key="sshEnabled">false</entry>
+<entry key="adapterId">MYSQL</entry>
+<entry key="performance">0</entry>
+<entry key="customJdbcConnectString">jdbc:mysql://localhost:3306/tti_drupal</entry>
+<entry key="userName">pact</entry>
+<entry key="displayName">pact@localhost/tti_drupal</entry>
+<entry key="last_connected">1433009583716</entry>
+<entry key="sslEnabled">false</entry>
+<entry key="sshPassword">UbAEXcuyHg8=</entry>
+<entry key="restore_state">true</entry>
+<entry key="host">localhost</entry>
+<entry key="db">tti_drupal</entry>
+</properties>

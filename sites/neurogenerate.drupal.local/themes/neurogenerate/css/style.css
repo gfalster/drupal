@@ -1,0 +1,80 @@
+#page {
+	font-family: Comic Sans MS, Courier, Verdenna;
+	font-size: 75%;
+	color: #000;
+	background-color: #fff;
+}
+
+#page a {
+	color: #603;
+}
+
+#page a:hover {
+	color: #f00;
+}
+
+#page a:visited {
+	color: #cb0181;
+}
+
+h1 {
+	font-size: 150%;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 130;
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+#header,
+#footer {
+	padding: 10px;
+	background-color: #603;
+	color: #fff;
+}
+
+#header a,
+#footer a {
+	color: #fff;
+}
+
+#header a:hover,
+#footer a:hover {
+	color: #ff0;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+#header a:visited {
+	color: #fff;
+}
+
+#footer a:visited {
+	color: #cc0;
+}
+
+#main-menu a {
+	font-size: 130%;
+	color: #000;
+	text-decoration: none;
+}
+
+#main-menu a:hover {
+	outline: #fff;
+}
+
+#site-name {
+	font-size: 150%;
+}
+
+@media only screen and (min-width: 480px) {
+	font-size: 90%;
+}

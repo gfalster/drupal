@@ -1,0 +1,21 @@
+<?php
+
+function custom_entity_entity_info()
+{
+	return array(
+		'entity_test' => array(
+			'label' => t('Test Entity'),
+			'plural label' => t('Test Entities'),
+			'entity class' => 'Entity',
+			'controller class' => 'EntityAPIController',
+			'base table' => 'custom_entity',
+			'entity keys' => array(
+				'id' => 'id',
+			),
+			// Use the default label() and uri() functions
+			'label callback' => 'entity_class_label',
+			'uri callback' => 'entity_class_uri',
+		),
+	);	
+}
+
